@@ -1,0 +1,101 @@
+/* Images page CSS */
+
+body.images {
+    background-image: url("danny-images/danny-images-background.png");
+}
+
+.carousel-inner img {
+    height: 800px;
+}
+
+.carousel {
+    width: 1024px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* Life Story page CSS */
+
+body.life-story {
+    background-image: url("danny-images/danny-background.jpg");
+}
+
+h1.life-story, h1.filmography {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    color: white;
+    text-align: center;
+}
+
+.accordion {
+    width: 1024px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.accordion-item, .accordion-button {
+    background: transparent;
+    color: white;
+}
+
+/* Filmography CSS */
+
+body.filmography {
+    background-image: url("danny-images/danny-wallpaper.png");
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+}
+
+p.filmography, p.danny-himself {
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 8px black;
+}
+
+/* Danny Himself CSS */
+
+body.danny-himself {
+    background-image: url("danny-images/danny-wall.jpg");
+    text-align: center;
+    color: white;
+}
+
+p.danny-himself {
+    margin-top: 20px;
+}
+
+.danny-buttons {
+    display: flex;
+    gap: 18px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.pages {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8px;
+    margin-top: 16px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #3882F6;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 64px;
+}
